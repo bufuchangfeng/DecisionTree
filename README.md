@@ -11,7 +11,7 @@
 * CART
 * RandomForest
 * Adaboost
-* GDBT
+* GBDT
 
 ## 说明
 
