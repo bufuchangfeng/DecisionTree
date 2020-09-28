@@ -12,6 +12,9 @@
 * RandomForest
 * Adaboost
 * GBDT
+* XGBoost
+* LightGBM
+* Catboost
 
 ## 说明
 
