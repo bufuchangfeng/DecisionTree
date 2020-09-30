@@ -16,5 +16,33 @@
 * LightGBM
 * Catboost
 
+## 结果
+
+|         模型         | 结果 |
+| :------------------: | :--: |
+|   custom ID3未剪枝   |      |
+|   custom ID3预剪枝   |      |
+|   custom ID3后剪枝   |      |
+|      skearn ID3      |      |
+|  custom C4.5未剪枝   |      |
+|  custom C4.5预剪枝   |      |
+|  custom C4.5后剪枝   |      |
+|  custom CART未剪枝   |      |
+|  custom CART预剪枝   |      |
+|  custom CART后剪枝   |      |
+|     sklearn CART     |      |
+| custom RandomForest  |      |
+| sklearn RandomForest |      |
+|   custom Adaboost    |      |
+|   sklearn Adaboost   |      |
+|     custom GBDT      |      |
+|     sklearn GBDT     |      |
+|    custom XGBoost    |      |
+|       XGBoost        |      |
+|   custom LightGBM    |      |
+|       LightGBM       |      |
+|   custom CatBoost    |      |
+|       CatBoost       |      |
+
 ## 说明
 
