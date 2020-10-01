@@ -29,10 +29,10 @@
 |  custom C4.5未剪枝   | 1000张训练+10000张测试 | 0.6173 |
 |  custom C4.5预剪枝   |                        |        |
 |  custom C4.5后剪枝   |                        |        |
-|  custom CART未剪枝   |                        |        |
+|  custom CART未剪枝   | 1000张训练+10000张测试 | 0.6721 |
 |  custom CART预剪枝   |                        |        |
 |  custom CART后剪枝   |                        |        |
-|     sklearn CART     |                        |        |
+|     sklearn CART     | 1000张训练+10000张测试 | 0.6486 |
 | custom RandomForest  |                        |        |
 | sklearn RandomForest |                        |        |
 |   custom Adaboost    |                        |        |
@@ -46,7 +46,9 @@
 |   custom CatBoost    |                        |        |
 |       CatBoost       |                        |        |
 
-## 决策树总结
+## 说明
+
+
 
 * 未考虑缺失值处理
 
@@ -56,14 +58,21 @@
 
   我实现的时候选择了使gain ratio最大的切分点。
 
-## 说明
-
 * 使用60000张训练很慢，因此只用了1000张
-*  
 
-## 问题 
+*  我实现的决策树之所以慢，一个可能的原因是采用了连续的特征，而不是将图像二值化
 
 * 
 
+  
+
+
+
 ## 参考
+
+* <https://github.com/serengil/decision-trees-for-ml>
+
+
+
+
 
