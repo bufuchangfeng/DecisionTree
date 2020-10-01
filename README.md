@@ -48,8 +48,6 @@
 
 ## 说明
 
-
-
 * 未考虑缺失值处理
 
 * 在ID3中，处理连续值时，是选择使information gain最大的切分点，
@@ -71,8 +69,3 @@
 ## 参考
 
 * <https://github.com/serengil/decision-trees-for-ml>
-
-
-
-
-
