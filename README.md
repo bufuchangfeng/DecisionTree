@@ -30,7 +30,6 @@
 |  custom C4.5预剪枝   |                        |        |
 |  custom C4.5后剪枝   |                        |        |
 |  custom CART未剪枝   | 1000张训练+10000张测试 | 0.6721 |
-|  custom CART预剪枝   |                        |        |
 |  custom CART后剪枝   |                        |        |
 |     sklearn CART     | 1000张训练+10000张测试 | 0.6486 |
 | custom RandomForest  |                        |        |
