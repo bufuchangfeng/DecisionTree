@@ -68,3 +68,6 @@
 ## 参考
 
 * <https://github.com/serengil/decision-trees-for-ml>
+* <https://zhuanlan.zhihu.com/p/145215188>
+* <https://github.com/Rudo-erek/decision-tree>
+* 
