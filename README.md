@@ -32,8 +32,8 @@
 |  custom CART未剪枝   | 1000张训练+10000张测试 | 0.6721 |
 |  custom CART后剪枝   |                        |        |
 |     sklearn CART     | 1000张训练+10000张测试 | 0.6486 |
-| custom RandomForest  |                        |        |
-| sklearn RandomForest |                        |        |
+| custom RandomForest  | 1000张训练+10000张测试 | 0.7844 |
+| sklearn RandomForest | 1000张训练+10000张测试 | 0.8254 |
 |   custom Adaboost    |                        |        |
 |   sklearn Adaboost   |                        |        |
 |     custom GBDT      |                        |        |
