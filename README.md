@@ -36,8 +36,8 @@
 | sklearn RandomForest | 1000张训练+10000张测试 | 0.8254 |
 |   custom Adaboost    | 1000张训练+10000张测试 | 0.7216 |
 |   sklearn Adaboost   | 1000张训练+10000张测试 | 0.7325 |
-|     custom GBDT      |                        |        |
-|     sklearn GBDT     |                        |        |
+|     custom GBDT      | 100张训练+10000张测试  | 0.3637 |
+|     sklearn GBDT     | 100张训练+10000张测试  | 0.3651 |
 |    custom XGBoost    |                        |        |
 |       XGBoost        |                        |        |
 |   custom LightGBM    |                        |        |
