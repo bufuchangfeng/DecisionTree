@@ -38,8 +38,8 @@
 |   sklearn Adaboost   | 1000张训练+10000张测试 | 0.7325 |
 |     custom GBDT      | 100张训练+10000张测试  | 0.3637 |
 |     sklearn GBDT     | 100张训练+10000张测试  | 0.3651 |
-|    custom XGBoost    |                        |        |
-|       XGBoost        |                        |        |
+|    custom XGBoost    | 100张训练+10000张测试  | 0.4024 |
+|       XGBoost        | 100张训练+10000张测试  | 0.4237 |
 |   custom LightGBM    |                        |        |
 |       LightGBM       |                        |        |
 |   custom CatBoost    |                        |        |
@@ -57,11 +57,10 @@
 
 * 使用60000张训练很慢，因此只用了1000张
 
-*  我实现的决策树之所以慢，一个可能的原因是采用了连续的特征，而不是将图像二值化
-
-* 
+* 我实现的决策树之所以慢，一个可能的原因是采用了连续的特征，而不是将图像二值化
 
   
+
 
 
 
@@ -71,4 +70,9 @@
 * <https://zhuanlan.zhihu.com/p/145215188>
 * <https://github.com/Rudo-erek/decision-tree>
 * <https://github.com/JerryZhong/GBDT>
-* 
+* <https://github.com/RudreshVeerkhare/CustomXGBoost>
+* <https://github.com/MingchaoZhu/DeepLearning>
+
+## 致谢
+
+感谢 lgr 老师的帮助！
